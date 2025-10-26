@@ -1,4 +1,5 @@
-# consume.py
+# consumer.py
+
 import pika, os
 from dotenv import load_dotenv
 
