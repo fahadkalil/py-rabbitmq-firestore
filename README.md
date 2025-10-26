@@ -1,6 +1,7 @@
 # Python Message Gateway API
 
-Based on Python UV Template
+Project created with Firebase Studio
+  |_ Based on [Python Template (with uv package manager)](https://studio.firebase.google.com/new/python?hl=pt-br)
 
 Consumes a message from a RabbitMQ queue and forwards to a Firestore collection
 
