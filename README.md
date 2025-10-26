@@ -1,15 +1,22 @@
-# Python UV Starter
+# Python Message Gateway API
 
-This is a simple Python [uv](https://docs.astral.uv) starter in Firebase Studio.
+Based on Python UV Template
+
+Consumes a message from a RabbitMQ queue and forwards to a Firestore collection
 
 ## Running
 
 ```
-uv run main.py
+uv run python consumer.py
 ```
 
-## Add dependencies
+## Dependencies (already added)
+
+- ⚠️ CloudAMQP docs recommends Pika version == 1.1.0 
 
 ```
-uv add ruff
+uv add pika==1.1.0
+uv add python-dotenv
+uv add firebase-admin
 ```
+
